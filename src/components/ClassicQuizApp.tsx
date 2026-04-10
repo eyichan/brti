@@ -68,6 +68,7 @@ export default function ClassicQuizApp() {
     const res = computeClassicResult(answers, shuffledQuestions, gateAnswers);
     setResult(res);
     setScreen("result");
+    window.scrollTo(0, 0);
   }, [answers, gateAnswers, shuffledQuestions]);
 
   const handleGateAnswer = useCallback(
@@ -77,6 +78,7 @@ export default function ClassicQuizApp() {
       const res = computeClassicResult(answers, shuffledQuestions, updatedGate);
       setResult(res);
       setScreen("result");
+      window.scrollTo(0, 0);
     },
     [answers, gateAnswers, shuffledQuestions]
   );

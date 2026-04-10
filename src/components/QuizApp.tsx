@@ -39,6 +39,7 @@ export default function QuizApp() {
     const res = computeResult(answers, shuffledQuestions);
     setResult(res);
     setScreen("result");
+    window.scrollTo(0, 0);
   }, [answers, shuffledQuestions]);
 
   const answeredCount = useMemo(
