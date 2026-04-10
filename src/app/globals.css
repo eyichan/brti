@@ -22,7 +22,7 @@
 html, body { margin: 0; padding: 0; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   background: var(--bg);
   background-image: var(--bg-gradient);
   color: var(--text);
@@ -995,6 +995,8 @@ button:disabled { cursor: not-allowed; opacity: 0.45; transform: none; }
   border: 1px solid var(--panel-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+  content-visibility: auto;
+  contain-intrinsic-size: auto 500px;
 }
 
 .section-heading {

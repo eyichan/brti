@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function Header() {
@@ -11,7 +10,7 @@ export default function Header() {
     <header className="site-header">
       <div className="header-inner">
         <Link href="/" className="logo">
-          <Image src="/brand.svg" alt="" width={28} height={28} />
+          <img src="/brand.svg" alt="" width={28} height={28} />
           <span>BRTI</span>
         </Link>
         <button
