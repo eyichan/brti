@@ -1,0 +1,115 @@
+import { ClassicDimensionKey, ClassicDimensionMeta } from "./types";
+
+export const CLASSIC_DIMENSIONS: Record<ClassicDimensionKey, ClassicDimensionMeta> = {
+  S1: {
+    name: "Self-Worth",
+    model: "Self Model",
+    low: "You roast yourself harder than anyone else could. Compliments feel like an elaborate trap.",
+    mid: "Your self-esteem rides the wave — sky-high on good days, basement-level when things go wrong.",
+    high: "You generally know your worth. Other people's opinions are background noise.",
+  },
+  S2: {
+    name: "Self-Clarity",
+    model: "Self Model",
+    low: "Your inner channel is mostly static. 'Who am I?' is an active investigation with no leads.",
+    mid: "You mostly know yourself on weekdays. Weekends are a different person entirely.",
+    high: "You know your quirks, your limits, and what buttons not to push. Self-awareness: maxed.",
+  },
+  S3: {
+    name: "Core Drive",
+    model: "Self Model",
+    low: "You prioritize comfort over ambition. 'Hustle culture' makes you physically tired just reading about it.",
+    mid: "Part of you wants to level up. The other part wants to nap. Internal committee still voting.",
+    high: "You're fueled by goals and growth. If you're not progressing, something feels deeply wrong.",
+  },
+  E1: {
+    name: "Trust Level",
+    model: "Emotional Model",
+    low: "Your trust issues have trust issues. Read receipts trigger full investigation mode.",
+    mid: "Half trust, half caution. You'll give people a chance but keep one eye permanently open.",
+    high: "You default to believing people. It takes multiple betrayals to shake your faith.",
+  },
+  E2: {
+    name: "Heart Mode",
+    model: "Emotional Model",
+    low: "You guard your heart like Fort Knox. Emotional investment? Let's call it emotional budgeting.",
+    mid: "You'll invest emotionally, but you're not going all-in. Always keeping reserves.",
+    high: "When you're in, you're ALL in. Heart on sleeve, no backup plan, full send on feelings.",
+  },
+  E3: {
+    name: "Boundary Style",
+    model: "Emotional Model",
+    low: "You love being close. Personal space is just where you and your favorite people exist as one.",
+    mid: "You need closeness AND alone time. The balance shifts but never breaks.",
+    high: "Your personal bubble is sacred territory. Even loved ones need proper clearance.",
+  },
+  A1: {
+    name: "World Lens",
+    model: "Attitude Model",
+    low: "You see the world through defense goggles. Skepticism is your default firmware.",
+    mid: "Neither optimist nor pessimist. You observe from the middle and judge case by case.",
+    high: "You choose to see good in people. The glass isn't just half full — it's refillable.",
+  },
+  A2: {
+    name: "Rule Stance",
+    model: "Attitude Model",
+    low: "Rules were made to be bent, broken, or creatively reinterpreted in your favor.",
+    mid: "You follow rules when they make sense and quietly ignore them when they don't.",
+    high: "Structure matters. Rules exist for a reason, and that reason is civilization.",
+  },
+  A3: {
+    name: "Purpose Level",
+    model: "Attitude Model",
+    low: "Life feels pretty random. 'What's the point?' is a frequent thought, not a cry for help.",
+    mid: "Some days you have a mission. Other days, you're running on pure autopilot.",
+    high: "You operate with direction. You know roughly where you're headed and that matters to you.",
+  },
+  Ac1: {
+    name: "Motivation Type",
+    model: "Action Model",
+    low: "You're motivated by avoiding problems, not chasing wins. Defense-first mentality.",
+    mid: "Sometimes you chase wins, sometimes you dodge losses. Depends on what's at stake.",
+    high: "Achievement drives you. Results, growth, impact — that's the premium fuel.",
+  },
+  Ac2: {
+    name: "Decision Speed",
+    model: "Action Model",
+    low: "Your internal committee needs 3 business days to decide on lunch. Every option is analyzed.",
+    mid: "You think about it but don't spiral. Normal-level indecisive. Functioning within parameters.",
+    high: "You decide fast and don't look back. Analysis paralysis has been permanently deleted.",
+  },
+  Ac3: {
+    name: "Execution Power",
+    model: "Action Model",
+    low: "Deadlines are your adrenaline delivery system. Maximum output happens at maximum panic.",
+    mid: "Sometimes you're on it, sometimes you're not. Productivity is mood-dependent.",
+    high: "Things need to get done, and you're the one who does them. Procrastination? Never met her.",
+  },
+  So1: {
+    name: "Social Battery",
+    model: "Social Model",
+    low: "Social situations drain your battery fast. You need solo recharge before facing humans again.",
+    mid: "You're social when you want to be and gone when you don't. Selective engagement mode.",
+    high: "You thrive in crowds. New people? More the merrier. Your battery runs on social contact.",
+  },
+  So2: {
+    name: "Personal Bubble",
+    model: "Social Model",
+    low: "You want to merge lives with your close people. Tight bonds, tight circles, tight hugs.",
+    mid: "You need both connection and autonomy. Your boundaries flex depending on the person.",
+    high: "Your personal space is non-negotiable. Even your best friend gets boundary protocols.",
+  },
+  So3: {
+    name: "Mask Level",
+    model: "Social Model",
+    low: "You're an open book written in large font. What you see is exactly what you get.",
+    mid: "You moderate yourself depending on context. Socially intelligent with a light authenticity filter.",
+    high: "You're a social chameleon. Different rooms get different versions. Nobody sees the full picture.",
+  },
+};
+
+export const CLASSIC_DIMENSION_ORDER: ClassicDimensionKey[] = [
+  "S1", "S2", "S3", "E1", "E2", "E3",
+  "A1", "A2", "A3", "Ac1", "Ac2", "Ac3",
+  "So1", "So2", "So3",
+];
