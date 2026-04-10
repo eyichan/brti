@@ -57,7 +57,7 @@ export default function Home() {
           <div className="landing-versions">
             <div className="version-card">
               <span className="version-tag">Quick Scan</span>
-              <h3>🧠 Brainrot Quiz</h3>
+              <h2>🧠 Brainrot Quiz</h2>
               <p>
                 15 questions. 5 dimensions. 16 personality types. Fast, fun,
                 and scientifically unverified. Takes about 3 minutes.
@@ -68,7 +68,7 @@ export default function Home() {
             </div>
             <div className="version-card">
               <span className="version-tag">Deep Scan · SBTI Edition</span>
-              <h3>🔬 Classic SBTI Quiz</h3>
+              <h2>🔬 Classic SBTI Quiz</h2>
               <p>
                 30 questions. 15 dimensions. 22+ personality types. The
                 comprehensive SBTI brainrot edition with detailed profiles.

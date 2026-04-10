@@ -78,7 +78,7 @@ export default function BrainrotQuizPage() {
             </p>
           </div>
 
-          <h3 className="faq-heading">Frequently Asked Questions</h3>
+          <h2 className="faq-heading">Frequently Asked Questions</h2>
           <div className="faq-list">
             {QUIZ_FAQS.brainrot.map((faq, i) => (
               <details key={i} className="faq-item">
