@@ -1301,6 +1301,214 @@ button:disabled { cursor: not-allowed; opacity: 0.45; transform: none; }
 }
 
 /* ══════════════════════════════════════════
+   Share Page
+   ══════════════════════════════════════════ */
+
+.share-page {
+  padding: 36px 24px;
+  margin-top: 22px;
+  text-align: center;
+}
+
+.share-heading {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  background: none;
+  -webkit-text-fill-color: var(--text);
+}
+
+.share-sub {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+.share-eyebrow {
+  display: inline-flex;
+  font-size: 12px;
+  color: var(--accent-strong);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid var(--line);
+  background: var(--soft);
+  border-radius: 999px;
+  padding: 8px 16px;
+  margin-bottom: 28px;
+}
+
+.share-hero {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 28px;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.share-image-wrap {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #231b16, #1c1210);
+  padding: 12px;
+}
+
+.share-type-image {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+
+.share-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.share-code {
+  font-size: clamp(48px, 8vw, 72px);
+  font-weight: 900;
+  background: linear-gradient(135deg, #f97316, #eab308);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+.share-name {
+  font-size: 24px;
+  font-weight: 700;
+  background: none;
+  -webkit-text-fill-color: var(--text);
+}
+
+.share-match {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  border-radius: 999px;
+  padding: 8px 16px;
+  background: var(--accent-glow);
+  border: 1px solid var(--line);
+  color: var(--accent-strong);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.share-tagline {
+  color: var(--muted);
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+.share-desc {
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+  margin-bottom: 24px;
+}
+
+.share-desc p {
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.9;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.share-dims {
+  margin-bottom: 28px;
+}
+
+.share-dims h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--accent-strong);
+  margin-bottom: 14px;
+}
+
+.share-dim-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.share-dim-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  min-width: 80px;
+}
+
+.share-dim-name {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.share-dim-level {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.share-dim-chip.level-h .share-dim-level { color: #fb923c; }
+.share-dim-chip.level-m .share-dim-level { color: #eab308; }
+.share-dim-chip.level-l .share-dim-level { color: var(--muted); }
+
+.share-cta {
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
+}
+
+.share-cta h2 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, #f5f0eb 0%, #fb923c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.share-cta-sub {
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.share-cta-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.share-cta-buttons .btn-primary,
+.share-cta-buttons .btn-secondary {
+  display: inline-block;
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .share-hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .share-info {
+    align-items: center;
+  }
+}
+
+/* ══════════════════════════════════════════
    Types Directory & Detail Pages
    ══════════════════════════════════════════ */
 

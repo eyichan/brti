@@ -7,6 +7,7 @@ interface ShareButtonProps {
   typeName: string;
   matchPercent: number;
   quiz: "brainrot" | "classic";
+  levels: string;
 }
 
 export default function ShareButton({
@@ -14,10 +15,11 @@ export default function ShareButton({
   typeName,
   matchPercent,
   quiz,
+  levels,
 }: ShareButtonProps) {
   const [copied, setCopied] = useState(false);
 
-  const shareUrl = `https://sbtibrainrot.com/types/${quiz}/${typeCode.toLowerCase()}`;
+  const shareUrl = `https://sbtibrainrot.com/share?q=${quiz}&t=${typeCode}&m=${matchPercent}&d=${levels}`;
   const shareText = `I got ${typeName} (${typeCode}) — ${matchPercent}% match! Take the SBTI Brainrot Test`;
 
   const handleShare = useCallback(async () => {
@@ -51,7 +53,7 @@ export default function ShareButton({
 
   return (
     <button className="btn-share" onClick={handleShare}>
-      {copied ? "✓ Copied!" : "📤 Share Result"}
+      {copied ? "✓ Link Copied!" : "📤 Share Result"}
     </button>
   );
 }

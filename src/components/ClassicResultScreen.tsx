@@ -48,6 +48,9 @@ export default function ClassicResultScreen({
     sub,
     secondaryType,
   } = result;
+  const levelsStr = MODEL_GROUPS.flatMap((g) => g.keys)
+    .map((k) => levels[k])
+    .join("");
 
   return (
     <section className="card result-wrap">
@@ -148,6 +151,7 @@ export default function ClassicResultScreen({
           typeName={type.name}
           matchPercent={matchPercent}
           quiz="classic"
+          levels={levelsStr}
         />
         <button className="btn-secondary" onClick={onRestart}>
           Take Again

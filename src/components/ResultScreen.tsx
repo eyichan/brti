@@ -12,6 +12,7 @@ interface ResultScreenProps {
 
 export default function ResultScreen({ result, onRestart, onHome }: ResultScreenProps) {
   const { type, matchPercent, levels, scores, ranked } = result;
+  const levelsStr = DIMENSION_ORDER.map((d) => levels[d]).join("");
 
   return (
     <section className="card result-wrap">
@@ -105,6 +106,7 @@ export default function ResultScreen({ result, onRestart, onHome }: ResultScreen
           typeName={type.name}
           matchPercent={matchPercent}
           quiz="brainrot"
+          levels={levelsStr}
         />
         <button className="btn-secondary" onClick={onRestart}>
           Take Again
