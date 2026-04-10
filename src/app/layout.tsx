@@ -79,13 +79,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} antialiased`}>
+      <head>
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.clarity.ms" />
+        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
+      </head>
       <body>
-        <GoogleAnalytics gaId={GA_ID} />
-        <MicrosoftClarity clarityId={CLARITY_ID} />
-        <GoogleAdSense clientId={ADSENSE_ID} />
         <Header />
         {children}
         <Footer />
+        <GoogleAnalytics gaId={GA_ID} />
+        <MicrosoftClarity clarityId={CLARITY_ID} />
+        <GoogleAdSense clientId={ADSENSE_ID} />
       </body>
     </html>
   );
