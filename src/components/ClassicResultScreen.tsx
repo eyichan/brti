@@ -3,6 +3,7 @@ import { ClassicDimensionKey } from "@/lib/classic/types";
 import { ClassicQuizResult } from "@/lib/classic/types";
 import { CLASSIC_DIMENSIONS } from "@/lib/classic/dimensions";
 import { getClassicDimensionExplanation } from "@/lib/classic/scoring";
+import ShareButton from "./ShareButton";
 
 interface Props {
   result: ClassicQuizResult;
@@ -142,6 +143,12 @@ export default function ClassicResultScreen({
       </div>
 
       <div className="result-actions">
+        <ShareButton
+          typeCode={type.code}
+          typeName={type.name}
+          matchPercent={matchPercent}
+          quiz="classic"
+        />
         <button className="btn-secondary" onClick={onRestart}>
           Take Again
         </button>

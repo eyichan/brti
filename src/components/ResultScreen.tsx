@@ -2,6 +2,7 @@ import Image from "next/image";
 import { QuizResult, DimensionKey } from "@/lib/types";
 import { DIMENSIONS } from "@/lib/questions";
 import { getDimensionExplanation, DIMENSION_ORDER } from "@/lib/scoring";
+import ShareButton from "./ShareButton";
 
 interface ResultScreenProps {
   result: QuizResult;
@@ -99,6 +100,12 @@ export default function ResultScreen({ result, onRestart, onHome }: ResultScreen
       </div>
 
       <div className="result-actions">
+        <ShareButton
+          typeCode={type.code}
+          typeName={type.name}
+          matchPercent={matchPercent}
+          quiz="brainrot"
+        />
         <button className="btn-secondary" onClick={onRestart}>
           Take Again
         </button>

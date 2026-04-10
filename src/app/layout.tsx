@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.svg",
         width: 1200,
         height: 630,
         alt: "BRTI — SBTI Brainrot Personality Test",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     title: "BRTI — SBTI Brainrot Personality Test",
     description:
       "MBTI is dead. Find your brainrot personality type with 16+ iconic characters.",
-    images: ["/og-image.png"],
+    images: ["/og-image.svg"],
   },
   icons: {
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }],

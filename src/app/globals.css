@@ -1278,6 +1278,23 @@ button:disabled { cursor: not-allowed; opacity: 0.45; transform: none; }
   text-decoration: none;
 }
 
+.btn-share {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(59, 130, 246, 0.25);
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+}
+.btn-share:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px rgba(59, 130, 246, 0.35);
+}
+
 /* ── Quiz Below-Fold ── */
 .quiz-below-fold {
   border-top: 1px solid var(--line);
