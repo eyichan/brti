@@ -62,8 +62,8 @@
   <text x="820" y="453" fill="#fb923c" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle">MONKE</text>
 
   <!-- Brand icon (right side) -->
-  <circle cx="1060" cy="330" r="115" fill="rgba(249,115,22,0.06)"/>
-  <g transform="translate(944, 212) scale(3.5)" opacity="0.85">
+  <circle cx="978" cy="310" r="108" fill="rgba(249,115,22,0.06)"/>
+  <g transform="translate(866, 198) scale(3.5)" opacity="0.85">
     <path d="M32 8C20 8 12 16 12 26c0 4 1.5 7.5 4 10.5C18 39 19 42 19 46v2a2 2 0 002 2h22a2 2 0 002-2v-2c0-4 1-7 3-9.5 2.5-3 4-6.5 4-10.5C52 16 44 8 32 8z" stroke="#f97316" stroke-width="3" fill="none"/>
     <path d="M32 12v34" stroke="#f97316" stroke-width="2" stroke-dasharray="4 3" opacity="0.5"/>
     <path d="M18 22c4-1 7 1 8 4M16 30c5 0 8 2 9 5" stroke="#fb923c" stroke-width="2" stroke-linecap="round" fill="none"/>

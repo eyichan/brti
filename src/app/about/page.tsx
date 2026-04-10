@@ -82,7 +82,7 @@ export default function AboutPage() {
 
           <h2>Credits</h2>
           <p>
-            Inspired by the SBTI (赛博人格测试) framework. Character images from
+            Inspired by the SBTI (Cyber Personality Test) framework. Character images from
             the brainrot universe. Built with Next.js, TypeScript, and an
             unhealthy amount of internet culture.
           </p>
