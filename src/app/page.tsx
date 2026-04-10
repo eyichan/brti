@@ -8,9 +8,9 @@ import {
 
 // Page type: HUB — primary keyword: "SBTI brainrot"
 export const metadata = buildMetadata({
-  title: "SBTI Brainrot Personality Test — Which Brainrot Character Are You?",
+  title: "SBTI Brainrot Test — Which Brainrot Type Are You?",
   description:
-    "The original SBTI brainrot personality test. Discover which iconic brainrot character matches your personality — like MBTI but way more unhinged. 16+ types including Bombardiro Crocodilo, Tralalero Tralala & more.",
+    "The original SBTI brainrot personality test. Find which iconic character matches your personality — like MBTI but more unhinged. 16+ types, 100% free.",
   path: "/",
   keywords: [
     "SBTI brainrot",

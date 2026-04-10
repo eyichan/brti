@@ -5,7 +5,7 @@ import { breadcrumbJsonLd, buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Compare Brainrot Personality Types — Side-by-Side Tool",
   description:
-    "Compare any two brainrot personality types side by side. See dimension breakdowns, personality differences, and find your match or opposite. Works across Brainrot and Classic SBTI types.",
+    "Compare any two brainrot personality types side by side. See dimension breakdowns, personality differences, and find your match or opposite. 40 types total.",
   path: "/compare",
   keywords: [
     "compare brainrot types",

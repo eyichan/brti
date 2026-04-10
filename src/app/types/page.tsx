@@ -7,7 +7,7 @@ import { breadcrumbJsonLd, buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "All Brainrot Personality Types — 40 Characters Directory",
   description:
-    "Browse every brainrot personality type: 16 Brainrot types and 24 Classic SBTI types. Bombardiro Crocodilo, Tralalero Tralala, Sigma Boy & more. Complete character directory with profiles.",
+    "Browse all 40 brainrot personality types: 16 Brainrot and 24 Classic SBTI. Includes Bombardiro Crocodilo, Sigma Boy, Tralalero & more with full profiles.",
   path: "/types",
   keywords: [
     "brainrot personality types",

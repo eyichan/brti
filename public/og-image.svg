@@ -61,10 +61,24 @@
   <rect x="760" y="430" width="120" height="36" rx="18" fill="#231b16" stroke="#2e2420" stroke-width="1"/>
   <text x="820" y="453" fill="#fb923c" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle">MONKE</text>
 
-  <!-- CTA badge -->
-  <rect x="80" y="510" width="280" height="52" rx="14" fill="url(#accent)"/>
-  <text x="220" y="542" fill="#fff" font-family="Inter, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Take the Quiz — brti.app</text>
+  <!-- Brand icon (right side) -->
+  <circle cx="1060" cy="295" r="130" fill="rgba(249,115,22,0.05)"/>
+  <g transform="translate(932, 167) scale(4)" opacity="0.85">
+    <path d="M32 8C20 8 12 16 12 26c0 4 1.5 7.5 4 10.5C18 39 19 42 19 46v2a2 2 0 002 2h22a2 2 0 002-2v-2c0-4 1-7 3-9.5 2.5-3 4-6.5 4-10.5C52 16 44 8 32 8z" stroke="#f97316" stroke-width="3" fill="none"/>
+    <path d="M32 12v34" stroke="#f97316" stroke-width="2" stroke-dasharray="4 3" opacity="0.5"/>
+    <path d="M18 22c4-1 7 1 8 4M16 30c5 0 8 2 9 5" stroke="#fb923c" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M46 22c-4-1-7 1-8 4M48 30c-5 0-8 2-9 5" stroke="#fb923c" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M24 50v6a3 3 0 006 0v-6" stroke="#f97316" stroke-width="2" fill="#f97316" opacity="0.7"/>
+    <path d="M34 50v8a3 3 0 006 0v-8" stroke="#f97316" stroke-width="2" fill="#f97316" opacity="0.5"/>
+    <rect x="10" y="25" width="8" height="2" rx="1" fill="#eab308" opacity="0.6"/>
+    <rect x="46" y="31" width="10" height="2" rx="1" fill="#eab308" opacity="0.4"/>
+    <circle cx="38" cy="18" r="2" fill="#eab308"/>
+  </g>
 
-  <!-- brti.app domain -->
-  <text x="1100" y="580" fill="#a89890" font-family="Inter, sans-serif" font-size="16" font-weight="600" text-anchor="end">brti.app</text>
+  <!-- CTA badge -->
+  <rect x="80" y="510" width="240" height="52" rx="14" fill="url(#accent)"/>
+  <text x="200" y="542" fill="#fff" font-family="Inter, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Take the Quiz</text>
+
+  <!-- domain -->
+  <text x="1140" y="580" fill="#a89890" font-family="Inter, sans-serif" font-size="16" font-weight="600" text-anchor="end">sbtibrainrot.com</text>
 </svg>

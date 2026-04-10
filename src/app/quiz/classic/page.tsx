@@ -10,9 +10,9 @@ import {
 
 // Page type: MECHANIC — primary keyword: "SBTI personality test"
 export const metadata = buildMetadata({
-  title: "SBTI Personality Test — 30 Questions, 15 Dimensions, 22+ Types",
+  title: "SBTI Personality Test — 15 Dimensions, 22+ Types",
   description:
-    "Take the deep SBTI personality test: 30 questions across 15 dimensions and 5 psychological models. The most comprehensive brainrot personality analysis available — includes secret unlockable types.",
+    "The deep SBTI personality test: 30 questions, 15 dimensions, 5 psychological models. Comprehensive brainrot analysis with secret unlockable types.",
   path: "/quiz/classic",
   keywords: [
     "SBTI personality test",

@@ -10,9 +10,9 @@ import {
 
 // Page type: MECHANIC — primary keyword: "brainrot personality quiz"
 export const metadata = buildMetadata({
-  title: "Brainrot Personality Quiz — Which Brainrot Character Are You?",
+  title: "Brainrot Personality Quiz — Find Your Type",
   description:
-    "Take the brainrot personality quiz: 15 questions across 5 dimensions to find your brainrot character match. Are you Bombardiro Crocodilo, Sigma Boy, or Skibidi Toilet? 3-minute quiz with instant results.",
+    "Take the 15-question brainrot quiz to find your character match. Are you Bombardiro Crocodilo, Sigma Boy, or Skibidi? 5 dimensions. Instant results.",
   path: "/quiz/brainrot",
   keywords: [
     "brainrot personality quiz",
