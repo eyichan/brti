@@ -58,6 +58,11 @@ export const metadata: Metadata = {
       "MBTI is dead. Find your brainrot personality type with 16+ iconic characters.",
     images: ["/og-image.png"],
   },
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
   robots: { index: true, follow: true },
 };
 

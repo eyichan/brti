@@ -1,8 +1,6 @@
 import type { MetadataRoute } from "next";
-import { BRAINROT_TYPES } from "@/lib/brainrot-types";
-import { CLASSIC_PERSONALITY_TYPES } from "@/lib/classic/personality-types";
 
-const BASE = "https://brti.app";
+const BASE = "https://sbtibrainrot.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -16,19 +14,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/terms`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
   ];
 
-  const brainrotTypes: MetadataRoute.Sitemap = BRAINROT_TYPES.map((t) => ({
-    url: `${BASE}/types/brainrot/${t.code.toLowerCase()}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
-
-  const classicTypes: MetadataRoute.Sitemap = CLASSIC_PERSONALITY_TYPES.map((t) => ({
-    url: `${BASE}/types/classic/${t.code.toLowerCase()}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
-
-  return [...staticRoutes, ...brainrotTypes, ...classicTypes];
+  return staticRoutes;
 }
