@@ -34,7 +34,7 @@
   <!-- Main title -->
   <text x="80" y="200" fill="url(#accent)" font-family="Inter, -apple-system, sans-serif" font-size="72" font-weight="800" letter-spacing="-0.03em">MBTI is</text>
   <text x="400" y="200" fill="rgba(245,240,235,0.35)" font-family="Inter, -apple-system, sans-serif" font-size="72" font-weight="800" letter-spacing="-0.03em" text-decoration="line-through">dead</text>
-  <text x="560" y="200" fill="url(#accent)" font-family="Inter, -apple-system, sans-serif" font-size="72" font-weight="800" letter-spacing="-0.03em">.</text>
+  <text x="592" y="200" fill="url(#accent)" font-family="Inter, -apple-system, sans-serif" font-size="72" font-weight="800" letter-spacing="-0.03em">.</text>
 
   <text x="80" y="290" fill="#f5f0eb" font-family="Inter, -apple-system, sans-serif" font-size="72" font-weight="800" letter-spacing="-0.03em">BRTI has arrived.</text>
 
